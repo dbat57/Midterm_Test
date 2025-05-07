@@ -1,0 +1,150 @@
+html{background-color:#7851A9;}
+
+#title {text-align:center;
+  color:#365677;
+  background-color:#FAE6FA;
+  font-family:Sans-serif;
+  font-size:45px;
+  padding:38px;
+  border-radius:12px;
+}
+
+.description {
+  text-align:center;
+  color:#f4f5fa;
+  font-family:Sans-serif;
+  font-size:23px;
+  padding:30px;
+}
+
+#Steven{
+ 
+  width:1670px;
+  height:555px;
+}
+
+img:hover {
+    transform: scale(0.95);
+    opacity:0.9;
+}
+
+.caption{
+  color:#f4f5fa;
+  font-family:Sans-serif;
+  padding:15px;
+}
+
+.hide-text{
+  color:#7851A9;
+  padding:12px;
+}
+
+#origin{
+  color:#365677;
+  text-align:center;
+  font-family:Sans-serif;
+  padding:15px;
+  border:3px solid #FAE6FA;
+  width:40%;
+  background-color:#FAE6FA;
+  border-radius:12px;
+}
+
+.origin-content{
+  color:#f4f5fa;
+  font-family:Sans-serif;
+  font-size:20px;
+  border:3px solid #FAE6FA;
+  border-radius:12px;
+  padding:10px;
+}
+
+#The-last-gun{
+  width:900px;
+  height:500px;
+}
+
+
+
+#test{
+  float:right;
+  color:#365677;
+  text-align:center;
+  font-family:Sans-serif;
+  padding:15px;
+  border:3px solid #FAE6FA;
+  width:40%;
+  background-color:#FAE6FA;
+  border-radius:12px;
+}
+
+.test-description {
+  float:right;
+  color:#f4f5fa;
+  font-family:Sans-serif;
+  font-size:20px;
+  border:3px solid #FAE6FA;
+  border-radius:12px;
+  padding:10px;
+}
+
+#film{
+  width:300px;
+  height:294px;
+}
+
+/* #10: Horizontal Scroll Event */
+#scrollContainer {
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    margin: 30px 0; /* Contains the scrollable content for horizontal scrolling */
+}
+
+
+
+#scrollContent {
+    display: flex;
+    overflow-x: auto; /* Enables horizontal scrolling */
+    white-space: nowrap;
+    scroll-behavior: smooth; /* Smooth scrolling effect */
+    padding: 10px;
+    background-color: #FAE6FA;
+    border: 2px #FAE6FA;
+    width: 80%; 
+}
+
+
+/* Items inside the scrollable content */
+.content {
+    min-width: 500px;
+    height: 300px;
+    background-color: #7851A9;
+    margin-right: 10px;
+    text-align: center;
+    line-height: 100px;
+    font-size: 18px;
+    color: white;
+    flex-shrink: 0; /* Prevents content from shrinking inside the scrollable area */
+}
+
+#end{
+  color:#365677;
+  text-align:center;
+  font-family:Sans-serif;
+  padding:15px;
+  border:3px solid #FAE6FA;
+  width:98%;
+  background-color:#FAE6FA;
+  border-radius:12px;
+}
+
+.conclusion{
+  color:#f4f5fa;
+  font-family:Sans-serif;
+  font-size:20px;
+  border:3px solid #FAE6FA;
+  border-radius:12px;
+  padding:10px;
+}
